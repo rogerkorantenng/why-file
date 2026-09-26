@@ -1,0 +1,26 @@
+{
+  "name": "why-file",
+  "version": "0.2.0",
+  "description": "Bee developer-experience: why was it done this way, from what was actually said",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc --noEmit",
+    "demo": "node src/cli-demo.ts",
+    "mcp": "node src/mcp-server.ts",
+    "repl": "node src/repl.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1138.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  }
+}
